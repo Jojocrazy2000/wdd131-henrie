@@ -1,0 +1,38 @@
+
+:root{
+    --primary-color : rgb(16, 70, 163);
+}
+
+
+body{
+    background-color: rgb(161, 161, 161);
+    justify-items: center;
+}
+
+h1 + p{
+    color: var(--primary-color) 
+}
+
+hr{
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+img{
+
+}
+
+#content{
+    text-align: center;
+}
+
+#topics{
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.list{
+    list-style-type: none;
+    margin: 10px;
+}
+
