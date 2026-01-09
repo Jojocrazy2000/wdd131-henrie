@@ -5,7 +5,7 @@
 
 
 body{
-    background-color: rgb(161, 161, 161);
+    background-color: rgb(173, 173, 173);
     justify-items: center;
 }
 
@@ -16,6 +16,7 @@ h1 + p{
 hr{
     background-color: var(--primary-color);
     border-color: var(--primary-color);
+    max-width: 750px;
 }
 
 img{
@@ -24,6 +25,8 @@ img{
 
 #content{
     text-align: center;
+    border: 1px solid rgb(109, 109, 109);
+    margin: 15px;
 }
 
 #topics{
