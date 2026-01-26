@@ -1,0 +1,48 @@
+body{
+    border: 1px solid rgb(109, 109, 109);
+    margin: 15px;
+}
+
+#wrapper{
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+h1{
+    font-size: 55px;
+    text-align: center;
+}
+
+h2{
+    color: rgb(59, 59, 206);
+    margin-bottom: 0;
+    font-size: 18px;
+    text-align: center;
+}
+
+hr{
+    color: lightblue;
+}
+
+p + p{
+    font-style: italic;
+}
+
+#list{
+    text-align: left;
+    list-style-type:decimal;
+    margin: 10px;
+}
+
+li{
+    margin: 20px;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    padding: 50px 0px;
+    max-width: 150px;
+    align-self: center;
+}
