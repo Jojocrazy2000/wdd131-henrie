@@ -17,7 +17,7 @@ h1{
 }
 
 h2{
-    color: rgb(59, 59, 206);
+    color: rgb(82, 82, 196);
     margin-bottom: 0;
     font-size: 18px;
     text-align: center;
@@ -51,7 +51,7 @@ img{
 }
 
 .dark{
-    background-color: rgb(65, 65, 65);
+    background-color: #333;
     color: white;
 }
 
