@@ -1,9 +1,11 @@
 body{
-    border: 1px solid rgb(109, 109, 109);
+    font-size: 18px;
     margin: 15px;
 }
 
 #wrapper{
+    border: 1px solid rgb(109, 109, 109);
+    padding: 30px;
     max-width: 700px;
     margin: 0 auto;
     margin-top: 50px;
@@ -27,6 +29,7 @@ hr{
 
 p + p{
     font-style: italic;
+    padding: 15px 0px;
 }
 
 #list{
@@ -36,7 +39,7 @@ p + p{
 }
 
 li{
-    margin: 20px;
+    padding: 15px 0px;
 }
 
 img{
@@ -45,4 +48,14 @@ img{
     padding: 50px 0px;
     max-width: 150px;
     align-self: center;
+}
+
+.dark{
+    background-color: rgb(65, 65, 65);
+    color: white;
+}
+
+.light{
+    background-color: white;
+    color: black;
 }
