@@ -1,5 +1,5 @@
 body{
-    background-color: aqua;
+    background-color: rgba(54, 88, 244, 0.822);
     margin: 0;
     text-align: center;
 }
@@ -11,6 +11,12 @@ header{
 
 nav{
     display: none;
+    margin-bottom: 10px;
+}
+
+nav a{
+    color: white;
+    margin: 0 15px;
 }
 
 .menu-btn {
@@ -19,6 +25,8 @@ nav{
     background-color: transparent;
     font-size: large;
     padding-bottom: 10px;
+    
+    color: white;
 }
 
 #substance{
@@ -31,19 +39,56 @@ h1{
 }
 
 #imgs{
-    display: block;
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    margin: auto;
+
 }
 
 img{
     object-fit: cover;
+    margin: 15px;
+    border: 5px solid white;
+    box-shadow: 5px 5px 10px #6f7364;
+    max-width: 250px;
+    max-height: 300px;
+
+    grid-column: auto;
 }
 
+footer{
+    color: white;
+    margin: 10px;
+}
 
 
 @media screen and (min-width: 700px) {
+    #imgs{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
 
+        max-width: 700px;
+    }
+    img{
+        grid-column: auto;
+    }
 }
 
 @media screen  and (min-width: 1000px){
-    
+    nav{
+        display: block;
+    }
+    .menu-btn{
+        display: none;
+    }
+    #imgs{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 1000px;
+    }
+    img{
+        grid-column: auto;
+    }
 }
