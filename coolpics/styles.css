@@ -1,0 +1,49 @@
+body{
+    background-color: aqua;
+    margin: 0;
+    text-align: center;
+}
+
+header{
+    font-size: xx-large;
+    margin: 15px;
+}
+
+nav{
+    display: none;
+}
+
+.menu-btn {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    font-size: large;
+    padding-bottom: 10px;
+}
+
+#substance{
+    background-color: gray;
+}
+
+h1{
+    margin: 0;
+    padding: 15px 0px;
+}
+
+#imgs{
+    display: block;
+}
+
+img{
+    object-fit: cover;
+}
+
+
+
+@media screen and (min-width: 700px) {
+
+}
+
+@media screen  and (min-width: 1000px){
+    
+}

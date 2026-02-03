@@ -42,6 +42,21 @@ nav a:hover {
     background-color: black;
     margin: 5px 0;
 }
+
+.open .link{
+    display: block;
+}
+
+.open .bar1 {
+  transform: translate(0, 8px) rotate(-45deg);
+}
+.open .bar2 {opacity: 0;}
+
+.open .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+          
+
 footer {
     text-align: center;
 }
