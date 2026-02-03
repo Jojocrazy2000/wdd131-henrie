@@ -45,6 +45,8 @@ nav a:hover {
 
 .open .link{
     display: block;
+    text-align: center;
+    border-top: 1px solid #333333;
 }
 
 .open .bar1 {
