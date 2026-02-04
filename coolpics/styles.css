@@ -29,6 +29,15 @@ nav a{
     color: white;
 }
 
+.open{
+    display: grid;
+    text-align: center;
+}
+
+.open a{
+    margin: 5px;
+}
+
 #substance{
     background-color: gray;
 }
