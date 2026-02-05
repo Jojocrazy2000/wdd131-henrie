@@ -22,7 +22,7 @@ gallary.addEventListener('click', function(e){
 
     if (!select) return;
 
-    modalImg.src = select.src;
+    modalImg.src = select.src.replace('.png', '-hi_res.png');
     modal.showModal();
 })
 

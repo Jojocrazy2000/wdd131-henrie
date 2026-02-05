@@ -11,7 +11,7 @@
         
         if (select.tagName != "IMG") return;
 
-        modalImage.src = select.src;
+        modalImage.src = select.src
         modal.showModal();      
     // Code to show modal  - Use event parameter 'e'   
     }
