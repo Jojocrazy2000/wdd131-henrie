@@ -38,3 +38,23 @@ document.querySelector("#enrollStudent").addEventListener("click", function () {
     const sectionNum = document.querySelector("#sectionNumber").value;
     aCourse.enrollStudent(sectionNum);
 });
+
+
+const newSectionForm = document.querySelector("#newSectionForm")
+newSectionForm.addEventListener("submit", function(event) {
+    event.preventDefault();
+    const roomNum = document.querySelector().value;
+    const enrolled = document.querySelector().value;
+    const days = document.querySelector().value;
+    const instructor = document.querySelector().value;
+    const sectionNum = aCourse.sections.length + 1;
+    aCourse.sections.push({
+        sectionNum,
+        roomNum,
+        enrolled,
+        days,
+        instructor
+    });
+    newSectionForm.reset();
+    renderSections(aCourse.sections);
+});
