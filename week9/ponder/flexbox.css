@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 20px;
+    max-width: 1280px;
+    margin: auto;
+    padding: 1em;
+}
+
+img {
+    max-width: 100%;
+}
+
+.main-nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+hr {
+    margin-top: 50px;
+}
+
+@media screen and (min-width: 700px) {
+    .media-card{
+        display: flex;
+        flex: 1 1 350px;
+        gap: 15px;
+    }
+
+    .gallery{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .media-card-image{
+        flex: 0 0 200px;
+    }
+
+    .media-card-content{
+        flex: 1;
+    }
+
+}
